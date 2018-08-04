@@ -1,0 +1,31 @@
+{
+  "name": "find-github-users-app",
+  "version": "1.0.0",
+  "description": "A Github users finder application",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --open  && npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shimpali/find-github-users-app.git"
+  },
+  "author": "Shimpali Deshpande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shimpali/find-github-users-app/issues"
+  },
+  "homepage": "https://github.com/Shimpali/find-github-users-app#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
